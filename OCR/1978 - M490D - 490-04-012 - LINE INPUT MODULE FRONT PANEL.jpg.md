@@ -21,7 +21,7 @@ Wiki page: [M490D](../../../../PAGES/M490D.md)
 - **Words (OCR):** 39 in 35 lines: WBS · trozs · udluatob Ie Icve| · SENS · Cepressed: · netrorka · dcpretied; · An · ~necoi · buset · PRL} Fds · PAN
 - **Title block:** (208, 24)–(401, 274) mm: WBS · trozs · udluatob Ie Icve| · SENS · netrorka · dcpretied; · buset · PAN · rloht · contro · outout · Controle · channe · shitcheo · Novcd · 78 · Kcnannefy · Bsuoatf
 
-Every curve, box, word and wire group: [1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).json](../MECHANICAL/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20(traced).json) (the CAD file: `1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).dxf`).
+Every curve, box, word and wire group: [1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).json](../MECHANICAL/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).dxf`).
 
 ## Full text
 
