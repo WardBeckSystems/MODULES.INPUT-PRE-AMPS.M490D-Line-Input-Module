@@ -1,5 +1,5 @@
 # 1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg
-Wiki page: [M490D](../../../../PAGES/M490D.md)
+Wiki page: [M490D](../)
 
 
 - **Year:** 1978 (module estimate (labelled))
