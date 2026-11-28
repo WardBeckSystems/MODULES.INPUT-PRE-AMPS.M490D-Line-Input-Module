@@ -4,13 +4,11 @@ Ward-Beck Systems M490D, 1978|11. Wiki page: [M490D on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 9 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 8 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 16 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 3 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 3 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 8 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 15 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 2 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 2 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 7 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -27,6 +25,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKa3NjazFGbFctaFk/view?resourcekey=0-TdIIeGfZJM5bGp8Kuh_NUw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKa3NjazFGbFctaFk&resourcekey=0-TdIIeGfZJM5bGp8Kuh_NUw" width="240" alt="1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL.jpg"></a><br><sub>1978|11 · 490-04-012 - LINE INPUT MODULE FRONT PANEL · <a href="MECHANICAL/1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M490D.stl`](MECHANICAL/M490D.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M490D)
+
+- **Size:** 43.18 × 267.28 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 12 holes and cut-outs, 1 knobs (front panel: `MECHANICAL/M490D - front panel.svg`)
+- the drawn panel is 0.11 wide to high, the size 0.16: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M490D.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -42,8 +49,6 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKdFJKOHMteDZGOTA/view?resourcekey=0-sWzd1lKE_HUh1cCSLqQCLA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKdFJKOHMteDZGOTA&resourcekey=0-sWzd1lKE_HUh1cCSLqQCLA" width="240" alt="1978 - M490D - pinout-490-04-005 (2).pdf"></a><br><sub>1978|11 · pinout-490-04-005 (2)</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKUDZxUGUxeDNHZmc/view?resourcekey=0-vavplF7UU2j9R3IentnScQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKUDZxUGUxeDNHZmc&resourcekey=0-vavplF7UU2j9R3IentnScQ" width="240" alt="1978 - M490D - pinout-490-04-005.pdf"></a><br><sub>1978|11 · pinout-490-04-005</sub></td></tr>
 </table>
-
-Not on Google Drive yet: `M490D - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
@@ -143,7 +148,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 
 - [1978 - M490D - schem-490-02-005 p1.kicad_sch](KICAD/1978%20-%20M490D%20-%20schem-490-02-005%20p1.kicad_sch)
 - [M490D.kicad_sym](KICAD/M490D.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
